@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    top: 0;
+    position: sticky;
+    font-family: "Funnel Display", sans-serif;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.brand img{
+    height: 45px;
+
+}
+#progB{
+    width: 75%;
+    cursor: pointer;
+}
+.cont{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-family: "Funnel Display", sans-serif;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 15px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icons{
+    margin-top: 15px;
+    cursor: pointer;
+}
+#icon1{
+   padding-right: 25px;
+}
+
+ #icon2{
+    padding-right: 25px;
+ }
+ #icon3{
+    padding-right: 25px;
+ }
+ .s1C{
+    width: 40px;
+    border-radius: 40px;
+    
+ }
+ .Song1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+ }
+ .text1{
+    background-color: white;
+    width:400px;
+    height: 30px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 35px;
+ }
+
+ .songL{
+    margin: 20px 35px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+#play1{
+    cursor: pointer;
+}
